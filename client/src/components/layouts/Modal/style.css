@@ -1,0 +1,51 @@
+.overlay{
+    background-color: rgba(0, 0, 0, 0.267);
+}
+.pf {
+    position: fixed;
+}
+.pr{
+    position: relative;
+}
+.ps{
+    position: sticky;
+}
+.t0{
+    top:0
+} 
+.l0{
+    left: 0;
+} 
+.r0{
+    right: 0;
+} 
+.b0{
+    bottom: 0;
+}
+.z99{
+    z-index: 99;
+}
+.z100{
+    z-index: 100;
+}
+.t50{
+    top: 50%;
+} 
+.l50{
+    left: 50%;
+} 
+.tt{
+    transform: translate(-50%,-50%);
+}
+.mh1v{
+    max-height: 100vh;
+}
+.mh95v{
+    max-height: 95vh;
+}
+.oya{
+    overflow-y: auto;
+}
+.bgcf{
+    background-color: #fff;
+}

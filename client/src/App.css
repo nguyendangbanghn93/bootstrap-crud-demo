@@ -1,0 +1,82 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.df{
+  display: flex;
+}
+.jcsb{
+  justify-content: space-between;
+}
+
+.ml5,.mlr5,.ma5{
+  margin-left: 5px;
+}
+.mr5,.mlr5,.ma5{
+  margin-right: 5px;
+}
+.mt5,.mtb5,.ma5{
+  margin-top: 5px;
+}
+.mb5,.mtb5,.ma5{
+  margin-bottom: 5px;
+}
+
+.ml10,.mlr10,.ma10{
+  margin-left: 10px;
+}
+.mr10,.mlr10,.ma10{
+  margin-right: 10px;
+}
+.mt10,.mtb10,.ma10{
+  margin-top: 10px;
+}
+.mb10,.mtb10,.ma10{
+  margin-bottom: 10px;
+}
+
+.ml15,.mlr15,.ma15{
+  margin-left: 15px;
+}
+.mr15,.mlr15,.ma15{
+  margin-right: 15px;
+}
+.mt15,.mtb15,.ma15{
+  margin-top: 15px;
+}
+.mb15,.mtb15,.ma15{
+  margin-bottom: 10px;
+}
+
